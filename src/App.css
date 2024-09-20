@@ -6,8 +6,21 @@
 
 body {
   background-color: rgb(245, 243, 243);
+  position: relative;
+  border: 1px solid black;
 }
 
+.close {
+  position: absolute;
+  right: 50%;
+  top: 113px;
+  font-size: 4rem;
+}
+
+.close:hover {
+  color: rgb(115, 0, 255);
+  cursor: pointer;
+}
 .steps {
   display: flex;
   flex-direction: column;
@@ -17,6 +30,10 @@ body {
   height: auto;
   margin: 20% auto;
   border-radius: 12px;
+}
+
+.steps-hide {
+  display: none;
 }
 
 .numbers {

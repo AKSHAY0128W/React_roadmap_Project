@@ -21,6 +21,8 @@ const App = () => {
         : alert("Santii thhi pela React sikhne ajji su jovu che");
     }
   };
+
+  //use in that code useState hook use in that functionality
   return (
     <>
       <div className="steps">

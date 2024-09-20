@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 243, 243);
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgba(230, 226, 226, 0.398);
+  width: 600px;
+  height: auto;
+  margin: 20% auto;
+  border-radius: 12px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.numbers div {
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-size: 1.4rem;
+}
+
+.numbers .active {
+  background-color: rgb(115, 0, 255);
+  color: white;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.buttons button {
+  background-color: rgb(115, 0, 255);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: rgba(0, 115, 255, 0.761);
+}
+
+.buttons .disble {
+  background-color: rgba(0, 115, 255, 0.283);
+}

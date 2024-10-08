@@ -6,6 +6,10 @@ import { FaEyeSlash } from "react-icons/fa";
 import "./App.css";
 
 const App = () => {
+
+  // bhai kya he ye kyu he ye
+
+
   const [step, setStep] = useState(1);
   const [view, setView] = useState(true);
 
